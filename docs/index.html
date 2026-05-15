@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matru-Sneh | Your Pregnancy Companion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #F48FB1;
+            --secondary: #FFE0B2;
+            --accent: #CE93D8;
+            --text: #424242;
+            --bg: #FAFAFA;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        nav {
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hero {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(180deg, #FFF 0%, var(--secondary) 100%);
+            border-radius: 0 0 50px 50px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--text);
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .download-btn {
+            background: var(--primary);
+            color: white;
+            padding: 1.2rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 20px rgba(244, 143, 177, 0.3);
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-5px);
+        }
+
+        .features {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .pwa-notice {
+            background: var(--accent);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        footer {
+            padding: 4rem 2rem;
+            text-align: center;
+            color: #999;
+        }
+
+        .mockup {
+            width: 300px;
+            height: 600px;
+            background: #333;
+            border-radius: 40px;
+            margin: 3rem auto;
+            border: 8px solid #222;
+            position: relative;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .mockup-inner {
+            width: 100%;
+            height: 100%;
+            background: var(--primary);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">🤰 Matru-Sneh</div>
+        <a href="https://github.com/ketaliparvati-spec/Matru-sneha" class="logo" style="font-size: 1rem; -webkit-text-fill-color: initial; color: #333;">GitHub</a>
+    </nav>
+
+    <section class="hero">
+        <h1>ಮಾತೃ-ಸ್ನೇಹ (Matru-Sneh)</h1>
+        <p class="tagline">Your intelligent, localized companion for a healthy and happy pregnancy journey in Karnataka.</p>
+        <a href="https://github.com/ketaliparvati-spec/Matru-sneha/releases/download/v1.0.0-beta/matru-sneha.apk" class="download-btn">Download for Android</a>
+        
+        <div class="mockup">
+            <div class="mockup-inner">
+                <div style="font-size: 5rem;">🤰</div>
+                <h2>Matru-Sneh</h2>
+                <p>Caring for you,<br>one kick at a time.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <div class="icon">🤖</div>
+            <h3>AI Health Companion</h3>
+            <p>Get motherly advice localized to Karnataka food habits like Ragi Mudde and Soppu Saru.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Kick History</h3>
+            <p>Track your baby's activity with live 7-day charts and automatic data syncing.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🌍</div>
+            <h3>Full Kannada Support</h3>
+            <p>Designed for rural accessibility with seamless switching between English and Kannada.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🆘</div>
+            <h3>Safety First</h3>
+            <p>Quick-dial emergency contacts and automated checkup reminders to keep you on track.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Matru-Sneh. Dedicated to healthy motherhood.</p>
+    </footer>
+
+</body>
+</html>
