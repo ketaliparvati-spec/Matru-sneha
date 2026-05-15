@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Matru-Sneh</string>
+    <string name="welcome_message">Namaskara, %1$s 💖</string>
+    <string name="pregnancy_week">Pregnancy Week</string>
+    <string name="nutrition_score">Nutrition Score</string>
+    <string name="kick_count_today">Kick Count Today</string>
+    <string name="health_status">Health Status</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="action_kick_counter">👶 Kick Counter</string>
+    <string name="action_nutrition">🍲 Nutrition</string>
+    <string name="action_baby_growth">📖 Baby Growth</string>
+    <string name="action_checkups">📅 Checkups</string>
+    <string name="danger_signs">🚨 Danger Signs &amp; Emergency</string>
+</resources>

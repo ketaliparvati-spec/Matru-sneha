@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಮಾತೃ-ಸ್ನೇಹ</string>
+    <string name="welcome_message">ನಮಸ್ಕಾರ, %1$s 💖</string>
+    <string name="pregnancy_week">ಗರ್ಭಾವಸ್ಥೆ ವಾರ</string>
+    <string name="nutrition_score">ಪೌಷ್ಟಿಕಾಂಶ ಸ್ಕೋರ್</string>
+    <string name="kick_count_today">ಇಂದಿನ ಕಿಕ್ ಎಣಿಕೆ</string>
+    <string name="health_status">ಆರೋಗ್ಯ ಸ್ಥಿತಿ</string>
+    <string name="quick_actions">ತ್ವರಿತ ಕ್ರಿಯೆಗಳು</string>
+    <string name="action_kick_counter">👶 ಕಿಕ್ ಕೌಂಟರ್</string>
+    <string name="action_nutrition">🍲 ಪೋಷಣೆ</string>
+    <string name="action_baby_growth">📖 ಮಗುವಿನ ಬೆಳವಣಿಗೆ</string>
+    <string name="action_checkups">📅 ತಪಾಸಣೆಗಳು</string>
+    <string name="danger_signs">🚨 ಅಪಾಯದ ಚಿಹ್ನೆಗಳು &amp; ತುರ್ತು</string>
+</resources>
